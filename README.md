@@ -325,19 +325,24 @@ cd backend
 ```
 
 #### Create Virtual Environment
+
+For window 
 ```
-py -m venv venv  # for window 
+py -m venv venv  
 ```
+For mac
 ```
-python3 -m venv venv # for mac
+python3 -m venv venv 
 ```
 
 #### Activate Virtual Environment
+For window 
 ```
-venv\Scripts\activate   # Windows
+venv\Scripts\activate   
 ```
+For mac
 ```
-source venv/bin/activate     # Mac / Linux
+source venv/bin/activate     
 ```
 #### Install Dependencies
 
@@ -380,11 +385,14 @@ uvicorn main:app --reload
 ```
 
 If uvicorn is not recognized:
+For Windows
 ```
-py -m uvicorn main:app --reload        # Windows
+py -m uvicorn main:app --reload       
 ```
+
+For mac
 ```
-python3 -m uvicorn main:app --reload       # Mac / Linux
+python3 -m uvicorn main:app --reload     
 ```
 
 #### Backend URL::
